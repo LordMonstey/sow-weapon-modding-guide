@@ -1,0 +1,31 @@
+{
+  "format": "sow-guide-weighted-pools-v1",
+  "description": "Synthetic fixed-weight example. Not a GADB patch or native drop-rate simulator.",
+  "root": "reward",
+  "pools": {
+    "reward": [
+      {
+        "item": "existing_reward_group",
+        "weight": 9
+      },
+      {
+        "pool": "imported_swords",
+        "weight": 1
+      }
+    ],
+    "imported_swords": [
+      {
+        "item": "Example_EmberSword",
+        "weight": 1
+      },
+      {
+        "item": "Example_FrostSword",
+        "weight": 1
+      },
+      {
+        "item": "Example_StormSword",
+        "weight": 1
+      }
+    ]
+  }
+}
