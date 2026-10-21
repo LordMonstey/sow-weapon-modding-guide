@@ -1,0 +1,635 @@
+{
+  "format": "gadb-field-names-v1",
+  "provenance": "Curated identifiers recovered from the native type registry and checked against serialized field hashes. This is an authored annotation subset for item/model/loot navigation, not a hash inversion algorithm or a complete game schema. No record values or game assets are included.",
+  "categories": [
+    "Inventory.Item",
+    "Inventory.ItemBuilder",
+    "Inventory.EquippedItemData",
+    "InventoryItemModel",
+    "InventoryModel",
+    "Model",
+    "DynamicResource.BundleDefinition",
+    "Faction.LootNemesisGear",
+    "Faction.LootNemesisGearList",
+    "FactionLootEntry",
+    "Faction.LootTable",
+    "FactionNemesisGearRarityItem"
+  ],
+  "fields": {
+    "0x00154655": [
+      "ModelFile"
+    ],
+    "0x004ef000": [
+      "IsPreorderItem"
+    ],
+    "0x03571601": [
+      "Translucent"
+    ],
+    "0x03687e2e": [
+      "EndGemData"
+    ],
+    "0x063bbaef": [
+      "Stats"
+    ],
+    "0x09202ea5": [
+      "RestrictionTags"
+    ],
+    "0x092a24a1": [
+      "TrackForQuestCompleteUI"
+    ],
+    "0x09a74a26": [
+      "ActiveAnimation"
+    ],
+    "0x0cd40a7b": [
+      "MaxFactionMemberKills"
+    ],
+    "0x0d2659e1": [
+      "RenderID"
+    ],
+    "0x0e429231": [
+      "WeaponFXContext"
+    ],
+    "0x0e83fe34": [
+      "KillerIncludedCharacterType"
+    ],
+    "0x0f412d28": [
+      "MaterialOverrides"
+    ],
+    "0x11e81d45": [
+      "BeginPredicates"
+    ],
+    "0x12e2175d": [
+      "BeginAppearance"
+    ],
+    "0x13290a51": [
+      "GemData"
+    ],
+    "0x13854f89": [
+      "PreviewModel"
+    ],
+    "0x15961aa2": [
+      "LootTypeWeight"
+    ],
+    "0x1651a29f": [
+      "BodyModelChange"
+    ],
+    "0x1666f9f7": [
+      "BaseWeaponData"
+    ],
+    "0x168eed30": [
+      "MaterialSets"
+    ],
+    "0x1a1fa2d1": [
+      "RequireFactionMember"
+    ],
+    "0x1ae89b4a": [
+      "EquipmentUpgradeWeapon"
+    ],
+    "0x1ba1f00e": [
+      "AnimationAudioHooks"
+    ],
+    "0x1bf6e702": [
+      "RequiredRarity"
+    ],
+    "0x1e65a29d": [
+      "ChildItemPicker"
+    ],
+    "0x1ef39caa": [
+      "RequiredItem"
+    ],
+    "0x1efd0f17": [
+      "WorldItemData"
+    ],
+    "0x1f240911": [
+      "LootTags"
+    ],
+    "0x2205c14c": [
+      "BundleType"
+    ],
+    "0x220a74f8": [
+      "ActiveVariableMod"
+    ],
+    "0x228e3c06": [
+      "AffixPicker"
+    ],
+    "0x2293fef6": [
+      "KillerExcludedCharacterType"
+    ],
+    "0x234f317e": [
+      "ActiveItemGroup"
+    ],
+    "0x2351f9c5": [
+      "HideWhileSlotIsActive_Offhand"
+    ],
+    "0x2358d2ae": [
+      "OverrideModels"
+    ],
+    "0x2362a4ae": [
+      "BeginFortData"
+    ],
+    "0x23badced": [
+      "InactiveNode"
+    ],
+    "0x25399090": [
+      "ItemBuilder"
+    ],
+    "0x267e2579": [
+      "ItemLevel"
+    ],
+    "0x268b1bc6": [
+      "VisionModeFXSequence"
+    ],
+    "0x29d1cbb4": [
+      "RequiredCharacterType"
+    ],
+    "0x31775628": [
+      "Entries"
+    ],
+    "0x31e7406d": [
+      "OverrideILvl"
+    ],
+    "0x32627129": [
+      "ItemList"
+    ],
+    "0x32728af5": [
+      "SharedItemInventoryTypes"
+    ],
+    "0x32855524": [
+      "TrackForMemoryManipulation"
+    ],
+    "0x328ca2cd": [
+      "RangedWeaponData"
+    ],
+    "0x32a1af9f": [
+      "FactionIntelGiver"
+    ],
+    "0x3312317e": [
+      "CharacterTypeVariantItems"
+    ],
+    "0x3586c016": [
+      "RemoveItemOnDeath"
+    ],
+    "0x3742bcfe": [
+      "BaseResaleValue"
+    ],
+    "0x3827b934": [
+      "PassiveBuffData"
+    ],
+    "0x38d50494": [
+      "Categories"
+    ],
+    "0x3acd1ddb": [
+      "ActiveBuffData"
+    ],
+    "0x3ae77253": [
+      "ActiveAnimRequiresAmmo"
+    ],
+    "0x3b0cbfc6": [
+      "SimpleModelSocketOffsets"
+    ],
+    "0x3bda98d3": [
+      "SeverIndexMax"
+    ],
+    "0x3bdab581": [
+      "SeverIndexMin"
+    ],
+    "0x3e3744c8": [
+      "TelemetryState"
+    ],
+    "0x432aea8f": [
+      "EnableCloth"
+    ],
+    "0x44009124": [
+      "AppearanceTagsOnEquip"
+    ],
+    "0x4637ef7b": [
+      "OutOfMemoryBackups"
+    ],
+    "0x46a5a170": [
+      "BeginTelemetry"
+    ],
+    "0x4877a6c8": [
+      "Items"
+    ],
+    "0x498c0dee": [
+      "TriggerPlayerSave"
+    ],
+    "0x4c4431af": [
+      "MinLootItemLevel"
+    ],
+    "0x4d12b15c": [
+      "PersistentClientFX"
+    ],
+    "0x5400e366": [
+      "CompanionModelRecord"
+    ],
+    "0x543044db": [
+      "TelemetryType"
+    ],
+    "0x56130bf2": [
+      "EndStat_Buff"
+    ],
+    "0x58be2a2e": [
+      "RoleFormatString"
+    ],
+    "0x58c9e7e4": [
+      "ItemSequence"
+    ],
+    "0x5a256991": [
+      "MaterialSetVariants"
+    ],
+    "0x5bc9a69a": [
+      "SeveringFXContextList"
+    ],
+    "0x5c9b6dab": [
+      "ModelHide"
+    ],
+    "0x5d2c7e4e": [
+      "RenderIDOverrides"
+    ],
+    "0x5d4e9cf3": [
+      "RarityFormatString"
+    ],
+    "0x5d5a47d0": [
+      "UseRandomRollPredicate"
+    ],
+    "0x5eeded7e": [
+      "WeaponType"
+    ],
+    "0x5fb77e92": [
+      "Models"
+    ],
+    "0x602bcc4f": [
+      "InactiveScaleRate"
+    ],
+    "0x6254bdac": [
+      "RayHitDims"
+    ],
+    "0x627c2fea": [
+      "GemItemLevel"
+    ],
+    "0x63a35c98": [
+      "NemesisGearItem"
+    ],
+    "0x64074be9": [
+      "FortUpgrade"
+    ],
+    "0x65affa8b": [
+      "AddItemOnEquip_MeleeOffhand"
+    ],
+    "0x665fd730": [
+      "OnAttackStopStartAnimAtBeginning"
+    ],
+    "0x67e9949f": [
+      "EndMetaGroup"
+    ],
+    "0x68bcedae": [
+      "KeepItemWhenOrc"
+    ],
+    "0x69aafd18": [
+      "DescriptionOverride"
+    ],
+    "0x6c458040": [
+      "SharedItem"
+    ],
+    "0x6c6d1735": [
+      "RemoveGruntTraitOnAcquire"
+    ],
+    "0x6d205e4d": [
+      "MaxLootItemLevel"
+    ],
+    "0x6e8df500": [
+      "ScarAppliedDestroyFX"
+    ],
+    "0x6f6e36f8": [
+      "UnlockGemSocketType"
+    ],
+    "0x732c0901": [
+      "BeginItemBehaviorGroup"
+    ],
+    "0x765efa31": [
+      "ItemSlot"
+    ],
+    "0x76d5e0d1": [
+      "AudioAttackName"
+    ],
+    "0x777eb20f": [
+      "InactiveScale"
+    ],
+    "0x79283e07": [
+      "AdditionalNemesisAffixList"
+    ],
+    "0x7929da41": [
+      "ArmorData"
+    ],
+    "0x798691ce": [
+      "WeaponData"
+    ],
+    "0x79f4e0bb": [
+      "MinMeshIndex"
+    ],
+    "0x7a7d7099": [
+      "CombatActionsOnAdd"
+    ],
+    "0x7ab8b862": [
+      "Bundle"
+    ],
+    "0x7c4bcce3": [
+      "DynamicBundleLoadPriority"
+    ],
+    "0x7c87db09": [
+      "MinFactionMemberKills"
+    ],
+    "0x7dfcb5b7": [
+      "LoadedFX"
+    ],
+    "0x804bcda5": [
+      "BeginLootPredicates"
+    ],
+    "0x824f0a59": [
+      "UIItemData"
+    ],
+    "0x82682bfc": [
+      "ActiveClientFXSequence"
+    ],
+    "0x875198eb": [
+      "OverrideILvlMatchPlayerLevel"
+    ],
+    "0x87b8ee23": [
+      "Name"
+    ],
+    "0x8a4035a9": [
+      "PersistOnCheckpointLoad"
+    ],
+    "0x8cd69037": [
+      "MaxQuantity"
+    ],
+    "0x8e818716": [
+      "ItemName"
+    ],
+    "0x9099f948": [
+      "UIOverride"
+    ],
+    "0x92b01184": [
+      "MaxUpgradeLevel"
+    ],
+    "0x966cf4c2": [
+      "ModelRecord"
+    ],
+    "0x9ac05fad": [
+      "ExcludedItem"
+    ],
+    "0x9bc846c1": [
+      "ForceCharacterAudioUpdate"
+    ],
+    "0x9bf7271c": [
+      "ItemDroppedByFormatString"
+    ],
+    "0x9d4ba4d1": [
+      "Tags"
+    ],
+    "0x9db2d67b": [
+      "Tint"
+    ],
+    "0x9fbbb976": [
+      "CanSaveThisItem"
+    ],
+    "0xa15e0193": [
+      "Item"
+    ],
+    "0xa35deabd": [
+      "AddItemOnEquip"
+    ],
+    "0xa474b9d5": [
+      "RareItemWeightMin"
+    ],
+    "0xa4766078": [
+      "TriggerPlayerAddDispatchEvent"
+    ],
+    "0xa479a365": [
+      "DifficultyData"
+    ],
+    "0xa549a79d": [
+      "ItemType"
+    ],
+    "0xa582699f": [
+      "IncludedItem"
+    ],
+    "0xa6a0c544": [
+      "ApplySummonedByTribeMaterialOverride"
+    ],
+    "0xa77785d1": [
+      "InactiveAnimation"
+    ],
+    "0xa9940175": [
+      "MustHaveDeathThreat"
+    ],
+    "0xad179959": [
+      "Model"
+    ],
+    "0xad9e14e8": [
+      "EquipmentFX"
+    ],
+    "0xb0419002": [
+      "IncludedAttackCategory"
+    ],
+    "0xb0c48138": [
+      "InactiveAnimLoop"
+    ],
+    "0xb21d6b37": [
+      "OverrideSettings"
+    ],
+    "0xb2eda81e": [
+      "FactionMemberItemReplaceValue"
+    ],
+    "0xb340edf2": [
+      "NemesisAffix"
+    ],
+    "0xb35e100a": [
+      "TrackItemViewed"
+    ],
+    "0xb3aaa662": [
+      "AudioBlockName"
+    ],
+    "0xb4774066": [
+      "EquipmentFXActive"
+    ],
+    "0xb5b44870": [
+      "ExcludedAttackCategory"
+    ],
+    "0xb5f33213": [
+      "UseForNamedOnly"
+    ],
+    "0xb803a83d": [
+      "HideWhileSlotIsActive"
+    ],
+    "0xb94d3ba9": [
+      "Desc"
+    ],
+    "0xba357d4f": [
+      "ItemSet"
+    ],
+    "0xbc1a6886": [
+      "Resource"
+    ],
+    "0xbdf60272": [
+      "IncludedGameModes"
+    ],
+    "0xbe718667": [
+      "PassiveVariableMod"
+    ],
+    "0xc015d49c": [
+      "ItemDesc"
+    ],
+    "0xc06541a5": [
+      "AppearanceTags"
+    ],
+    "0xc2b29147": [
+      "EndPredicates"
+    ],
+    "0xc3ac8b5f": [
+      "EndAppearance"
+    ],
+    "0xc48da4a5": [
+      "TimedRemoval"
+    ],
+    "0xc59607a4": [
+      "BeginStat_Buff"
+    ],
+    "0xc6740fd7": [
+      "Group"
+    ],
+    "0xc9653ff8": [
+      "BlockFXContext"
+    ],
+    "0xc98e2648": [
+      "DynamicMaxQuantity"
+    ],
+    "0xcb141139": [
+      "PassiveMaterialOverrides"
+    ],
+    "0xcb56862b": [
+      "ActiveAnimLoop"
+    ],
+    "0xccd4fd38": [
+      "UseInactiveScale"
+    ],
+    "0xcdbeb490": [
+      "EndFortData"
+    ],
+    "0xd0360835": [
+      "BeginUI"
+    ],
+    "0xd11340af": [
+      "HideWhileSlotIsActive_UseOffhandOverrides"
+    ],
+    "0xd1fc2313": [
+      "KeepItemWhenPlayer"
+    ],
+    "0xd2fb11b6": [
+      "ReEvaluateCharacterStateFX"
+    ],
+    "0xd40f0fe7": [
+      "EndLootPredicates"
+    ],
+    "0xd483e349": [
+      "DropFX"
+    ],
+    "0xd49b3252": [
+      "SecondaryWeaponType"
+    ],
+    "0xd4a78a1c": [
+      "CombatActionsOnConsume"
+    ],
+    "0xd722a5be": [
+      "EndTelemetry"
+    ],
+    "0xd76c9051": [
+      "BeginMetaGroup"
+    ],
+    "0xd76e357b": [
+      "Rarity"
+    ],
+    "0xd783af48": [
+      "PassiveFXSequencePicker"
+    ],
+    "0xd79f61f2": [
+      "PreviewFX"
+    ],
+    "0xd958812d": [
+      "UpgradeTiers"
+    ],
+    "0xdab7b127": [
+      "ShieldWeaponData"
+    ],
+    "0xdb3cd9ad": [
+      "ActiveAndUnsheathedWeaponBuff"
+    ],
+    "0xdc367860": [
+      "DLCOwnedGlobalVarProgressPredicate"
+    ],
+    "0xdd4ea5f7": [
+      "IncludedCharacterType"
+    ],
+    "0xdeb49e56": [
+      "Audio"
+    ],
+    "0xdf959ccf": [
+      "EndItemBehaviorGroup"
+    ],
+    "0xdf9f0919": [
+      "DynamicBundle"
+    ],
+    "0xe187c4ff": [
+      "CollisionProperty"
+    ],
+    "0xe4f0ca80": [
+      "ActiveNode"
+    ],
+    "0xe512b887": [
+      "PairedItems"
+    ],
+    "0xe6db77b7": [
+      "EndUI"
+    ],
+    "0xe6e9f4e1": [
+      "EquipmentUpgradeArmor"
+    ],
+    "0xe7c5e924": [
+      "FlairColors"
+    ],
+    "0xecfd56fa": [
+      "ActiveMaterialOverrides"
+    ],
+    "0xeddf333b": [
+      "NemesisGearList"
+    ],
+    "0xee883832": [
+      "CombinedItemData"
+    ],
+    "0xf15ea6b9": [
+      "ExcludedCharacterType"
+    ],
+    "0xf3199d48": [
+      "KillerMustBePlayerAlly"
+    ],
+    "0xf3c65bb2": [
+      "Scale"
+    ],
+    "0xf565edea": [
+      "DestructibleData"
+    ],
+    "0xf6520635": [
+      "ActiveWeaponBuff"
+    ],
+    "0xfc423ac0": [
+      "BeginGemData"
+    ],
+    "0xff8b5f99": [
+      "MaxMeshIndex"
+    ],
+    "0xffbe8920": [
+      "IncludedItemPlayer"
+    ]
+  }
+}
